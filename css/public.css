@@ -1,0 +1,751 @@
+*{
+	padding:0 ;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	overflow-x:hidden; 
+
+}
+img{
+	border: 0;
+	
+}
+html,body{
+	height: 100%;
+
+
+
+
+}
+/*title之前*/
+.titleid  {
+	text-align: center;
+	cursor:pointer;
+}
+/*注册登录*/
+.zhuceone{
+	width: 1190px;
+	height: 42px;
+	margin:0 auto;
+	cursor:pointer;
+}
+.zhuceone div{
+	float: left;
+}
+.zhuceone p{
+	float:left;
+}
+.zhuceone p a{
+	color:rgb(51, 51, 51);
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 42px;
+}
+.zhuceone a:hover{
+	color:red;
+}
+.zhucetwo {
+	float: right;
+	
+}
+.zhucetwo  li{
+	float: left;
+}
+.zhucetwo li:nth-of-type(3){
+	position: relative;
+}
+.zhucetwo  li a{
+	color:rgb(51, 51, 51);
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 42px;
+}
+.indexc{
+	position: absolute;
+	left: -40px;
+	top:85px;
+	z-index: 999;
+	display: none;
+	background: #fff;
+	width: 280px;
+    height: 150px;
+}
+.indexc img{
+   margin: 13px 30px 13px;
+}
+.zhucetwo  li:hover a{
+	color: red;
+}
+
+.zhucetwo li:nth-of-type(3):hover .indexc{
+		display: block;
+}
+.zhucetwo li:nth-of-type(3) a{
+	padding-left: 2px;
+}
+.zhucetwo li:nth-of-type(4) a{
+	color: red;
+}
+.zhucetwo li:nth-of-type(5) a{
+	padding-left: 2px;
+}
+/*图标开始*/
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1503375233352'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1503375233352#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff?t=1503375233352') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1503375233352') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1503375233352#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:18px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: red;
+  display: inline-block;
+  padding-left: 3px;
+
+
+
+
+}
+
+.icon-shouji:before { content: "\e602"; }
+
+.icon-gouwuchekong:before { content: "\e600"; }
+
+/*图标结束*/
+
+
+
+
+/*所有商品*/
+.topnav{
+	width: 100%;
+	height: 36px;
+	background: #000;
+	position: relative;
+	
+
+
+}
+.navone{
+	width: 210px;
+	float: left;
+	position:absolute;
+	left: 80px;
+	top:0;
+	z-index: 999;
+	
+}
+.all-styles-title{
+	display: block;
+	line-height: 36px;
+	background: #D6211A;
+	width: 210px;
+	color: #fff;
+	font-size:16px;
+	height: 36px; 
+	text-indent: 32px;
+	
+
+}
+.all-styles-title:hover .all-styles-hide{
+	display: block;
+}
+
+.all-styles-hide{
+	width: 202px;
+	background: #000;
+	display: none;
+	position: absolute;
+	left:0;
+	top:36px;
+	
+}
+
+.all-styles-hide li{
+
+	display: block;
+	text-indent: 12px;
+	line-height: 40px;
+
+
+}
+.all-styles-hide li:hover {
+	background: #D6211A;
+}
+.all-styles-hide li p{
+	line-height: 22px;
+}
+.all-styles-hide li p a{
+	z-index: 999;
+	color: #fff;
+	font-size: 12px;
+	
+
+
+}
+.all-styles-hide h3 {
+	
+	font-weight: normal
+
+}
+.all-styles-hide h3 a{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+
+}
+/*男装二级右出菜单*/
+#divright{
+	position: relative;
+	width: 735px;
+	height: 220px;
+	background: rgba(255,255,255,0.9);
+	position: absolute;
+    left: 202px;
+    top: 150px;
+    border: 1px solid #ccc;
+    z-index: 999;
+    display: none;
+}
+
+#divright ul {
+	width: 430px;
+    border-top: 1px #ddd dashed;
+    border-bottom: 1px #ddd dashed;
+    border-right: 1px #ddd solid;
+    margin: 30px 20px 30px 30px;
+    height: 158px;
+    float: left;
+
+}
+#divright li{
+	line-height:22px;
+	margin-top:23px; 
+}
+#divright li a{
+	color: #999;
+	margin-right: 10px;
+	font-size: 12px;
+
+}
+#divright li a:hover a{
+	color: red;
+}
+.divrightone{
+	
+
+    height: 178px;
+    margin-left: 30px ;
+    margin-top:20px;
+
+}
+.divrightone h4{
+	font-weight: bold;
+    color: #666;
+    line-height: 18px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+	font-size: 14px;
+    
+}
+/*女装二级右出菜单*/
+#divrightbuttom{
+	position: relative;
+	width: 735px;
+	height: 220px;
+	background: rgba(255,255,255,0.9);
+	position: absolute;
+    left: 202px;
+    top: 260px;
+    border: 1px solid #ccc;
+    z-index: 999;
+    
+}
+
+#divrightbuttom ul {
+	width: 430px;
+    border-top: 1px #ddd dashed;
+    border-bottom: 1px #ddd dashed;
+    border-right: 1px #ddd solid;
+    margin: 30px 20px 30px 30px;
+    height: 158px;
+    float: left;
+
+}
+#divrightbuttom li{
+	line-height:22px;
+	margin-top:23px; 
+}
+#divrightbuttom li a{
+	color: #999;
+	margin-right: 10px;
+	font-size: 12px;
+
+}
+#divrightbuttom li a:hover a{
+	color: red;
+}
+.divrightonenext{
+	
+
+    height: 178px;
+    margin-left: 30px ;
+    margin-top:20px;
+
+}
+.divrightonenext h4{
+	font-weight: bold;
+    color: #666;
+    line-height: 18px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+	font-size: 14px;
+    
+}
+/*首页开始部分*/
+.startUl{
+	height: 36px;
+	float:left;
+	margin-left: 20px;
+	line-height: 36px;
+
+
+	
+
+}
+.startUl .atsrtLi{
+	float: left;
+	position: relative;
+    height: 37px;
+    width: 76px;
+    z-index: 999;
+
+}
+#firstchilda{
+	font-size: 14px;
+    display: block;
+    line-height: 36px;
+    width: 62px;
+    padding: 0 7px;
+    text-align: center;
+    color: #fff;
+    background: #231f20 url(http://img.anta.cn/sources/NewEdition/img/navBg.gif) no-repeat right 15px;
+}
+.firstchilda{
+	font-size: 14px;
+    display: block;
+    line-height: 36px;
+    width: 62px;
+    padding: 0 7px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+}
+/*首页隐藏部分*/
+.item-boxhide{
+
+	background: #fff;
+    z-index: 99;
+    position: absolute;
+    top: 36px;
+    left: -76px;
+    border: 1px #eee solid;
+    height: 345px;
+    width: 635px;
+    box-shadow: 0 0 3px #ddd;
+    display: none;
+   
+
+}
+.line-nav-ad{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	
+}
+.item-boxhide ul{
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 395px;
+	padding-left: 10px;
+	border-left: 1px solid #ddd;
+
+
+}
+.item-boxhide ul li{
+	line-height: 32px;
+
+}
+.item-boxhide ul li h4{
+	border-bottom: 1px #ddd dashed;
+    
+
+}
+.item-boxhide ul li h4 a{
+	color: #222;
+    font-weight: bold;
+    font-size: 14px;
+   	padding-bottom: 4px;
+
+}
+.item-boxhide ul li  a{
+	color: #333;
+    margin-right: 15px;
+    line-height: 18px;
+     font-size: 12px;
+
+}
+.item-boxhide ul li .a-red{
+	color: red;
+}
+.item-boxhide ul li h4:hover a{
+	color: red;
+}
+
+/*定制*/
+.con-img{
+	margin-left: 20px;
+	
+	
+
+}
+/*搜索*/
+.nav-search{
+	position: relative;
+
+	
+}
+.nav-search-input{
+
+	outline: none;
+    padding: 0 10px;
+    height: 26px;
+    border: 0;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.nav-search-btn{
+	position: absolute;
+    display: block;
+    height: 23px;
+    width: 30px;
+    background: #fff url(http://img.anta.cn/images/2015/index-icon.png) -42px -164px no-repeat;
+    border: none;
+    cursor: pointer;
+    right: 100px;
+    top: 7px;
+}
+#searchide{
+
+	position: absolute;
+    background: #fff;
+    top: 36px;
+    right:92px;
+    height: auto;
+    width: 198px;
+    border: 1px #e8e8e8 solid;
+    z-index: 999;
+    display: none;
+
+}
+
+#searchide ul li:hover a{
+	background: #ddd;
+	color: red;
+
+}
+#searchide ul li a{	
+	display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 178px;
+    color: #000;
+    font-size: 14px;
+    padding: 0 10px;
+ }
+/*轮播图*/
+ .swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+/*右侧购物车*/
+.right-sidebar{
+	width: 315px;
+    height: 100%;
+  	z-index: 1000;
+    position: absolute;
+   /* right:280px;*/
+   	right: 0px;
+    top:160px;
+    
+}
+/*图标开始*/
+@font-face {font-family: "iconfont";
+  src: url('../font2/iconfont.eot?t=1503654314269'); /* IE9*/
+  src: url('../font2/iconfont.eot?t=1503654314269#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font2/iconfont.woff?t=1503654314269') format('woff'), /* chrome, firefox */
+  url('../font2/iconfont.ttf?t=1503654314269') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font2/iconfont.svg?t=1503654314269#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:18px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ /* color: #fff;*/
+}
+
+.icon-taoxin:before { content: "\e623"; }
+
+.icon-zuijinliulan:before { content: "\e673"; }
+
+.icon-saoma:before { content: "\e60b"; }
+
+.icon-dianhua:before { content: "\e51d"; }
+
+.icon-kefu:before { content: "\e644"; }
+
+.icon-gouwuchekong:before { content: "\e502"; }
+
+
+/*图标结束*/
+/*购物车显示部分*/
+.sidebar-list{
+	width: 35px;
+	
+	background: #000;
+	float: left;
+	padding-top: 150px;
+
+
+	
+
+}
+.sidebar-logo{
+	height: 35px;
+    width: 35px;
+    padding-top: 10px;
+    padding-left: 5px;
+ }
+
+.sidebar-cart-box{
+	width: 35px;
+    height: 95px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+    padding-bottom: 8px;
+    position: relative;
+	
+}
+.sidebar-cart-boxa{
+	width: 35px;
+	cursor: pointer;
+    padding-bottom: 8px;
+    position: relative;
+
+}
+.sidebar-cart-box i{
+	 padding-top: 10px;
+   	 padding-left: 6px;
+   	 padding-bottom: 8px;
+   	 color: #fff;
+}
+.sidebar-logo i{
+	color: #fff;
+}
+.sidebar-cart-boxa i{
+	 padding-top: 20px;
+   	 padding-left: 6px;
+   	 padding-bottom: 8px;
+   	  color: #fff;
+}
+.sidebar-txt{
+	color: #FFF;
+   	width: 14px;
+ 	padding-left: 10px;
+ 	font-size: 12px;
+
+}
+
+
+
+
+
+
+.sidebar-tab-tip{
+	
+    background: #494949;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: 85px;
+    top: 15px;
+    text-align: center;
+    min-width: 110px;
+    font-size: 12px;
+    opacity: 0;
+}
+
+
+/*.sidebar-icon{
+	font-family: "宋体";
+    font-size: 16px;
+    position: absolute;
+    right: -8px;
+    bottom: 10px;
+    color: #494949;
+    height: 16px;
+    line-height: 16px;
+}*/
+.go-to-top{
+	display: block;
+    margin-top: 25px;
+ 	background: url(http://img.anta.cn/images/2015/index-icon.png) -37px -196px no-repeat;
+    height: 35px;
+    width: 35px;
+}
+/*需要隐藏的部分*/
+/*未完待续*/
+.sidebar-box{
+	width: 280px;
+   	height: 100%;
+    float:left;
+    background: #e6e6e6;
+}
+/*底部-footer*/
+.footer{
+	height: 371px;
+    width: 100%;
+    border-top: 3px solid #e2e2e2;
+   /* margin-top: 50px;*/
+}
+/*内部链接*/
+.serverbox{
+	margin:30px auto;
+
+}
+.server-list{
+	padding: 0 10px;
+    border-right: 1px solid #dbdbdb;
+    float: left;
+    margin-bottom: 40px;
+}
+.server-list li{
+	float: left;
+	margin: 0 75px;
+}
+.server-list li h4{
+
+	font-weight: bolder;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+}
+.serverbox  ul li a{
+	 display: block;
+    line-height: 30px;
+    color: #000;
+    font-size: 14px;
+}
+.serverbox  ul li a:hover {
+		color: red;
+}
+
+.custom-service{
+	float: left;
+	margin-left: 80px;
+	
+}
+.custom-service  .server-tel{
+	line-height: 80px;
+    display: block;
+    height: 40px;
+    width: 250px;
+    font-size: 30px;
+
+}
+.custom-service .server-btn{
+	margin-top:20px;
+	margin-bottom: 20px;
+    display: block;
+    height: 25px;
+    width: 135px;
+    border: 1px #bdbdbd solid;
+    border-radius: 5px;
+   text-align: center;
+}
+.custom-service .server-btn:hover{
+	background:red;
+}
+.custom-service .server-btn i{
+	color: #000;
+
+}
+.custom-service .server-btn span{
+	height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 14px;
+}
+.custom-service img{
+	display: block;
+	margin-top:20px;
+    height: 60px;
+    width: 70px;
+}
+/*版权及友情链接*/
+.company-full{
+	clear: both;	
+	background: #000;
+
+}
+.company-info{
+	width: 1190px;
+	margin:0 auto;
+	line-height: 60px;
+	cursor: pointer;
+}
+.company-info span{
+	font-size: 14px;
+	padding:0 10px;
+	color: #fff;
+
+}
+
+.company-lian{
+	float: right;
+	
+}
+.company-lian a{
+	color: #fff;
+	font-size: 14px;
+	padding:0 10px;
+	
+}

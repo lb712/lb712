@@ -1,0 +1,383 @@
+/*.jij{
+	height: 30px;
+	width: 50px;
+	background: red;
+}*/
+/*上面是测试*/
+/*子页开始*/
+
+.wrap-box{
+	width: 1190px;
+	margin: 0 auto;
+
+}
+.list_crumb{
+	width: 100%;
+    margin: 25px 0 15px;
+}
+.classify{
+	 float: left;
+    line-height: 21px;
+}
+.classify a{
+	 color: #666;
+	 font-size: 14px;
+}
+/*小盒子*/
+.list-left{
+	width: 100%;
+	overflow: hidden;
+}
+.list-left-one{
+	height: 564px;
+    width: 110px;
+    overflow: hidden;
+	position: relative;
+    float: left;
+    margin-top: 15px;
+}
+.test li{
+	display: inline-block;
+	height: 98px;
+    width: 98px;
+  	text-align: center;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 5px;
+  	cursor: pointer;
+  	overflow: hidden;
+
+
+}
+
+.ilclk{border:3px solid #ccc !important;}
+
+#list-idbox{
+	float: left;
+    width: 594px;
+    height: 594px;
+	border: 3px solid #eee;
+    margin: 15px 10px;
+    overflow: hidden;
+}
+
+
+.list-right{
+	width: 450px;
+	float: left;
+	background: #fff;
+	margin-top:15px;
+	padding-left: 10px;
+
+}
+.pro-detail-hd{
+	
+	width: 100%;
+  	margin-bottom: 10px
+
+}
+.pro-detail-hd h1{
+	 color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+    height: 28px;
+}
+.pro-detail-hd h1 .exp-style{
+	color: #666464;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 6px;
+    line-height: 18px;
+    margin-left: 40px;
+}
+
+.start-comment{
+	display: block;
+    width: 100%;
+    height: 16px;
+    line-height: 20px;
+    margin: 5px auto;
+    position: relative;
+
+}
+.start-comment span:nth-of-type(1){
+	background: url(http://img.anta.cn/images/2015/stars.png) no-repeat scroll 0 1px;
+    display: block;
+    height: 16px;
+    width: 100%;
+}
+.start-comment .review-count{
+	color: #fa5400;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    left: 70px;
+    top:0;
+
+    
+}
+ .pro-sales-item:nth-of-type(1){
+	border-top: 1px solid #d9d9d9;
+    padding-top: 10px;
+    color: #999;
+  	margin-bottom: 10px;
+    font-size: 14px;
+
+}
+.c-red{
+	font-size: 18px;
+	color: #c40000;
+}
+.current_price{
+	font-size: 28px;
+	color: #c40000;
+}
+.pro-sales-item:nth-of-type(2){
+	color: #999;
+  	margin-bottom: 10px;
+    font-size: 14px;
+}
+.pro-alert{
+	min-height: 36px;
+    background-color: #eee;
+    color: #999;
+    overflow: hidden;
+    padding: 20px 20px
+}
+.pro-alert p{
+	 width: 450px;
+   	color: #c40000;
+    line-height: 23px;
+    font-size: 14px;
+}
+/*小图片*/
+.selectbox{
+	 width: 446px;
+
+}
+.pro-key{
+
+	margin-top: 2px;
+}
+#colorname{
+	line-height: 40px; 
+    color: #666464;
+    font-size: 14px;
+    overflow: hidden;
+}
+#proColor{
+	width: 100%;
+}
+#proColor li{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border:1px solid #ccc;
+	margin-left: 8px;
+	position: relative;
+
+	
+
+
+}
+.loadingsml{
+	position: absolute;
+	left: 0;
+	top:0;
+	
+}
+
+.color_code{
+	border:3px solid red !important;
+}
+.sizebox{
+	clear: both;
+
+}
+.sizebox p{
+	line-height: 40px;
+    color: #666464;
+    font-size: 14px;
+}
+.sizebox p span{
+	margin: 5px;
+
+}
+.sizebox a{
+	font-size: 16px;
+	color: #ccc;
+	line-height: 40px;
+	margin-left: 25px;
+
+}
+.sumbox{
+	width: 100%;
+	height: 42px;
+	
+}
+.amount-box{
+	float: left;
+}
+.amount-box a{
+	width: 122px;
+	height: 42px;
+	display: block;
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	line-height: 42px;
+	color: #ccc;
+	position: relative;
+	}
+.amount-box a:hover{
+	color: red;
+}
+
+.amount-box ul{
+	width: 122px;
+	display: none;
+	z-index: 999;
+	position: absolute;
+	left: 820px;
+	top:719px;
+}
+.amount-box ul li{
+	width: 122px;
+	height: 30px;
+	background:#ccc;
+	border: 1px solid #fff;
+	padding-top:6px;
+	text-align: center;
+	
+}
+.buttonbox{
+	float: left;
+}
+.dtl-cart{
+	
+	width:152px;
+	height: 42px;
+	float: left;
+	background: #000;
+	color: #fff;
+	border:none;
+	border-radius: 3px;
+	margin-left:3px;
+	
+}
+.buttonbox input:nth-of-type(2){
+	width: 152px;
+	height: 42px;
+	float:left;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin-left:3px;
+
+}
+.lasttext h3{
+	font-size: 14px;
+    color: #515151;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.lasttext p{
+	 color: #b1b1b1;
+    font-size: 14px;
+    line-height: 18px;
+}
+/*图片*/
+.maybe-like{
+	width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 50px
+
+
+}
+.maybe-like{
+	padding: 65px 0 55px;
+    font-size: 38px;
+    text-align: center;
+}
+.like-pro{
+	margin-top: 30px;
+}
+.like-pro a{
+	width: 220px;
+	height: 220px;
+	display:block;
+	float: left;
+	border: 1px solid #d9d9d9;
+	margin-left: 16px;
+}
+.pro-dtl-ctr{
+	width: 100%;
+}
+.pro-dtl-menu{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.detail-box{
+	display: none;
+}
+.detail-box img{
+	display: block;
+	margin:0 auto;
+}
+.comment-box{
+	width: 790px;
+	min-height: 100px;
+	background: #ccc;
+	margin:0 auto;
+	display: none;
+	overflow: hidden;
+}
+.pro-dtl-menu{
+	width: 335px;
+   margin: 70px auto ;
+   overflow: hidden;
+
+
+}
+.pro-dtl-menu a{
+	display: block;
+	width: 153px;
+	height: 43px;
+	line-height: 43px;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+	position: relative;
+	cursor: pointer;
+
+
+}
+.pro-dtl-menu a i{
+	position: absolute;
+	right: 60px;
+	bottom: -20px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    display: none;
+	background: url(http://img.anta.cn/images/2015/dtl-buy.png) no-repeat center -59px;
+}
+
+.comment-box ul{
+	width: 790px;
+}
+.comment-box ul li{
+	line-height: 35px;
+	min-height: 35px;
+	width: 790px;
+	border-bottom: 1px solid #fff;
+	color: red;
+}
